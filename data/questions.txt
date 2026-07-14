@@ -1,0 +1,69 @@
+1,1,01). Which of the following is an example of an input device?,Monitor,Keyboard,Printer,Speaker,B
+1,2,02). Which of the following is an example of ICT in education?,Online learning,Cooking food,Planting trees,Building houses,A
+1,3,03). Which device is used to capture sound?,Monitor,Printer,Microphone,Speaker,C
+1,4,04). Which of the following is an example of ICT in education?,Online learning,Planting trees,Cooking food,Building houses,A
+1,5,05). Which of the following is a storage device?,Keyboard,Mouse,Monitor,Hard Disk,D
+2,1,01). What is a computer?,An electronic device that processes data,A machine used only for typing,A device used only for gaming,A communication device,A
+2,2,02). Which unit of the computer performs calculations and logical operations?,Control Unit,Arithmetic and Logic Unit (ALU),Primary Memory,Input Unit,B
+2,3,03). Which type of computer is mainly used for personal use?,Super Computer,Mainframe Computer,Micro Computer,Mini Computer,C
+2,4,04). Which type of computer has the highest computing power?,Micro Computer,Mini Computer,Mainframe Computer,Super Computer,D
+2,5,05). Which device is used to enter data and instructions into a computer?,Output Device,Input Device,Printer,Monitor,B
+3,1,01). Which number system is directly used by computers?,Decimal,Binary,Octal,Hexadecimal,B
+3,2,02). Which number system uses the symbols A B C D E and F?,Binary,Octal,Decimal,Hexadecimal,D
+3,3,03). What is the smallest unit of data storage?,Byte,Bit,Kilobyte,Megabyte,B
+3,4,04). Which coding system originally used 7 bits to represent characters?,BCD,ASCII,Unicode,EBCDIC,B
+3,5,05). Which number system uses the digits 0 to 7 only?,Binary,Decimal,Octal,Hexadecimal,C
+4,1,01). Which of the following is a basic logic gate?,AND,NAND,NOR,XOR,A
+4,2,02). Which basic logic gate gives an output of 1 only when all inputs are 1?,OR,NOT,AND,NOR,C
+4,3,03). What is the Boolean expression for an AND gate?,A+B,A.B,A̅+B,A+B̅,B
+4,4,04). What is the output of a NOT gate when the input is 1?,1,0,True,High,B
+4,5,05). Which basic logic gate gives an output of 1 if at least one input is 1?,AND,OR,NAND,NOT,B
+5,1,01). What is the main purpose of an Operating System?,To create documents,To manage computer hardware and software,To browse the Internet,To play games,B
+5,2,02). Which of the following is an example of an Operating System?,Microsoft Word,Windows 10,Google Chrome,Adobe Photoshop,B
+5,3,03). Which user interface uses windows icons menus and pointer?,CLI,GUI,DOS,BIOS,B
+5,4,04). Which of the following is a Free and Open Source Operating System?,Windows 11,Apple macOS,Ubuntu,MS-DOS,C
+5,5,05). Which user interface requires users to type commands?,GUI,Touch Interface,CLI,WIMP,C
+6,1,01). What is the best software used to create and edit text documents?,Spreadsheet Software,Word Processing Software,Database Software,Presentation Software,B
+6,2,02). Which feature checks spelling and grammar mistakes in a document?,Mail Merge,Spell Check,Clipboard,Header,B
+6,3,03). Which shortcut key is used to save a document?,Ctrl + P,Ctrl + S,Ctrl + C,Ctrl + X,B
+6,4,04). Which feature is used to organize information into rows and columns?,WordArt,Table,Header,Symbol,B
+6,5,05). Which shortcut key is used to print a document?,Ctrl + S,Ctrl + O,Ctrl + P,Ctrl + Z,C
+7,1,01). What is the main purpose of an electronic spreadsheet?,Playing games,Performing calculations,Editing videos,Drawing pictures,B
+7,2,02). What is the first cell of a worksheet?,A0,A1,B1,AA1,B
+7,3,03). What is the result of =(2+4)*3 ?,14,18,20,24,B
+7,4,04). Which is a column absolute reference?,A1,$A1,A$1,$A$1,B
+7,5,05). Which chart is best for comparing categories?,Pie Chart,Column Chart,Scatter Chart,Area Chart,B
+8,1,01). What is the main purpose of a presentation?,To play games,To share ideas and knowledge with an audience,To browse the internet,To write programs,B
+8,2,02). Which software is a presentation software?,Microsoft PowerPoint,MS Paint,Notepad,Calculator,A
+8,3,03). Which key starts a presentation from the first slide?,F1,F2,F5,F12,C
+8,4,04). Which menu is used to insert a Text Box in PowerPoint?,Insert,View,Design,Review,A
+8,5,05). What is Slide Transition?,Changing text color,Effect between slides,Printing slides,Adding comments,B
+9,1,01). What is a database?,A collection of organized data,A computer program,A collection of images,A text document,A
+9,2,02). A row in a table is called a...,Record,Field,Database,Form,A
+9,3,03). Which data type is suitable for prices?,Text,Boolean,Currency,Integer,C
+9,4,04). Which data type is best for telephone numbers?,Integer,Text,Boolean,Currency,B
+9,5,05). Which key uniquely identifies each record?,Foreign key,Composite key,Primary key,Candidate key,C
+10,1,01). Which keyword is used to declare variables in Pascal?,CONST,TYPE,VAR,ARRAY,C
+10,2,02). Which loop is best used when the number of repetitions is known in advance?,WHILE,REPEAT UNTIL,FOR...DO,IF...THEN,C
+10,3,03). Which data type is suitable for prices?,Text,Boolean,Currency,Integer,C
+10,4,04). Which data type stores a sequence of characters?,Char,String,Boolean,Integer,B
+10,5,05). Which Pascal data type stores whole numbers?,Real,Integer,Boolean,String,B
+11,1,01). What is a system?,A collection of unrelated items,A collection of components that interact to achieve a specific task,A computer program,A database,B
+11,2,02). Which type of information system performs all processes manually?,Computer-based system,Online system,Manual information system,Network system,C
+11,3,03). Which is the first phase of the System Development Life Cycle (SDLC)?,Coding the solution,Testing and debugging,Identification of requirements,Deployment of the system,C
+11,4,04). Which SDLC model completes one phase before moving to the next?,Spiral Model,Iterative Incremental Model,Waterfall Model,Prototype Model,C
+11,5,05). Which method is used to gather user requirements by asking questions?,Observation,Questionnaire,Prototyping,Coding,B
+12,1,01). What does URL stand for?,Uniform Resource Locator,Universal Resource Link,Uniform Record Locator,Universal Record Link,A
+12,2,02). Which protocol is used to transfer web pages?,FTP,SMTP,HTTP,TCP,C
+12,4,04). Which folder stores unwanted emails automatically?,Inbox,Drafts,Spam,Sent,C
+12,5,05). Which server converts a domain name into an IP address?,Web Server,Mail Server,DNS Server,FTP Server,C
+13,1,01). What is the smallest element of a digital graphic?,Byte,Pixel,Bit,Layer,B
+13,2,02). Which GIMP tool is used to add text to an image?,Move Tool,Text Tool,Brush Tool,Crop Tool,B
+13,3,03). Which file format is an example of Lossless compression?,JPEG,PNG,BMP,TIFF,B
+13,4,04). Which colour model is mainly used for computer and television screens?,CMYK,HSV,RGB,YUV,C
+13,5,05). Which type of graphic loses quality when enlarged?,Vector graphic,Raster graphic,SVG graphic,Layer graphic,B
+14,1,01). Which section of an HTML document contains the visible content of a web page?,<head>,<title>,<body>,<html>,C
+14,2,02). Which HTML tag is used to create a paragraph?,<br>,<p>,<h1>,<font>,B
+14,3,03). Which HTML tag is used to create a table row?,<td>,<th>,<tr>,<table>,C
+14,4,04). Which HTML tag is used to create a hyperlink?,<img>,<font>,<a>,<br>,C
+14,5,05). Which HTML tag is used to insert an image into a web page?,<a>,<img>,<table>,<p>,B

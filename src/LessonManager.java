@@ -29,7 +29,7 @@ public class LessonManager {
             return;
         }
 
-        System.out.println("\n===== AVAILABLE LESSONS =====");
+        System.out.println("\n===== GRADE 10 & 11 AVAILABLE LESSONS =====");
 
         for (int i = 0; i < lessonList.size(); i++) {
             System.out.println((i + 1) + ". " + lessonList.get(i).lessonName);

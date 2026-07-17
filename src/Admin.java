@@ -47,7 +47,7 @@ public class Admin {
 
                 case 1:
 
-                    System.out.print("Enter Lesson Name : ");
+                    System.out.print("Enter Lesson Num : ");
                     String newLesson = input.nextLine();
 
                     lessonManager.addLesson(newLesson);

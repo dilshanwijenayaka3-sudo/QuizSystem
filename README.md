@@ -1,54 +1,76 @@
 # Online ICT Quiz System
 
-## Project Description
+## Project Overview
 
-The **Online ICT Quiz System** is a Java console-based application developed using Object-Oriented Programming (OOP). The system allows an administrator to manage ICT quiz questions and lessons, while students can attempt quizzes by selecting a lesson. All data is stored using text files.
+The **Online ICT Quiz System** is a Java console-based application developed using Object-Oriented Programming (OOP). The system allows an administrator to manage ICT lessons and quiz questions, while students can attempt quizzes by selecting a lesson. Quiz results are automatically saved and can be viewed later. The application uses text files for permanent data storage.
 
 ---
 
-# Features
+## Features
 
-### Admin Functions
+### Administrator
 
-* Admin Login
-* Add New Questions
+* Secure Admin Login
+* Add New Lessons
+* View Available Lessons
+* Add Quiz Questions
 * View All Questions
-* Delete Questions
 * View Questions by Lesson
-* Manage Lessons
+* Delete Questions
+* Undo Deleted Question (Stack)
+* Save Data Automatically
 
-### Student Functions
+### Student
 
 * Enter Student Name
 * Select a Lesson
 * Answer Multiple Choice Questions (MCQs)
 * View Final Score
 
-### Result Management
+### Results
 
-* Save Quiz Results
-* View Previous Results
-* Store Results in Text Files
+* Save Student Results
+* View Previous Quiz Results
 
 ---
 
-# Technologies Used
+## Data Structures Used
+
+This project uses the following data structures:
+
+1. **ArrayList**
+
+   * Stores lessons and quiz questions.
+   * Provides dynamic storage and easy access to data.
+
+2. **Queue (LinkedList)**
+
+   * Displays quiz questions in **First In First Out (FIFO)** order during the quiz.
+
+3. **Stack**
+
+   * Stores deleted questions and supports the **Undo Delete** feature using the **Last In First Out (LIFO)** principle.
+
+---
+
+## Technologies Used
 
 * Java
 * Object-Oriented Programming (OOP)
+* File Handling
 * ArrayList
 * Queue (LinkedList)
-* File Handling
+* Stack
 * Exception Handling
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
-OL-ICT-Quiz-System/
-
-├── src/
+OL-ICT-Quiz-System
+│
+├── src
 │   ├── Main.java
 │   ├── Admin.java
 │   ├── Student.java
@@ -60,83 +82,84 @@ OL-ICT-Quiz-System/
 │   ├── ResultManager.java
 │   └── FileManager.java
 │
-├── data/
+├── data
 │   ├── lessons.txt
 │   ├── questions.txt
 │   └── results.txt
+│
+└── README.md
 ```
 
 ---
 
-# File Description
-
-### Java Files
+## File Description
 
 | File                 | Description                                        |
 | -------------------- | -------------------------------------------------- |
 | Main.java            | Starts the application and displays the main menu. |
-| Admin.java           | Handles administrator login and management tasks.  |
-| Student.java         | Stores student details and quiz information.       |
-| Question.java        | Represents a quiz question and its options.        |
-| QuestionManager.java | Manages adding, viewing and deleting questions.    |
-| QuizManager.java     | Controls the quiz process and score calculation.   |
+| Admin.java           | Handles administrator login and menu operations.   |
+| Student.java         | Stores student details and quiz scores.            |
+| Question.java        | Represents a quiz question.                        |
+| QuestionManager.java | Manages questions and Undo Delete using Stack.     |
+| QuizManager.java     | Conducts quizzes and calculates scores.            |
 | Lesson.java          | Represents lesson information.                     |
-| LessonManager.java   | Manages available lessons.                         |
+| LessonManager.java   | Manages lesson records.                            |
 | ResultManager.java   | Saves and displays quiz results.                   |
-| FileManager.java     | Handles reading and writing text files.            |
+| FileManager.java     | Reads from and writes to text files.               |
 
-### Data Files
+---
+
+## Data Files
 
 | File          | Purpose                        |
 | ------------- | ------------------------------ |
-| lessons.txt   | Stores lesson information.     |
+| lessons.txt   | Stores lesson names.           |
 | questions.txt | Stores quiz questions.         |
 | results.txt   | Stores students' quiz results. |
 
 ---
 
-# How to Run
+## How to Run
 
-1. Open the project using NetBeans, Eclipse or IntelliJ IDEA.
-2. Compile the project.
+1. Open the project in NetBeans, Eclipse, IntelliJ IDEA, or any Java IDE.
+2. Compile all Java source files.
 3. Run **Main.java**.
-4. Select one of the available options from the main menu.
-5. Login as Admin or start the Student Quiz.
+4. Select one of the following options:
+
+   * Admin Login
+   * Student Quiz
+   * View Results
+   * Exit
 
 ---
 
-# Concepts Used
+## OOP Concepts Used
 
 * Classes and Objects
-* Encapsulation
 * Constructors
+* Encapsulation
 * Methods
-* ArrayList
-* Queue (LinkedList)
-* File Handling
-* Exception Handling
-* Loops
-* Conditional Statements
+* Object Interaction
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 * Graphical User Interface (GUI)
 * MySQL Database Integration
 * Student Login System
 * Quiz Timer
 * Random Question Generation
-* Score Reports and Analytics
+* Performance Reports
 
 ---
 
-# Author
+## Author
 
 **Dilshan Wijenayaka**
 
 ---
 
-# Conclusion
+## Conclusion
 
-This project demonstrates the practical implementation of Java Object-Oriented Programming concepts together with file handling and collections. It provides an efficient system for managing ICT quiz questions and conducting quizzes while maintaining student results in text files.
+The Online ICT Quiz System demonstrates the practical application of Java Object-Oriented Programming, file handling, and data structures. It provides an efficient solution for managing ICT lessons, quiz questions, and student results while implementing **ArrayList**, **Queue**, and **Stack** to satisfy data structure requirements.

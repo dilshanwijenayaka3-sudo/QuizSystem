@@ -1,9 +1,11 @@
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class QuestionManager {
 
     private ArrayList<Question> questionList;
     private FileManager fileManager;
+    private Stack<Question> deletedQuestions = new Stack<>();
 
     // Constructor
     public QuestionManager() {
@@ -147,7 +149,10 @@ public class QuestionManager {
 
         if (question != null) {
 
+            deletedQuestions.push(question);
+
             questionList.remove(question);
+
             saveQuestions();
 
             System.out.println("Question deleted successfully.");
@@ -155,6 +160,25 @@ public class QuestionManager {
         } else {
 
             System.out.println("Question not found.");
+        }
+    }
+
+    // Undo deleted question
+    public void undoDeleteQuestion() {
+
+        if (!deletedQuestions.isEmpty()) {
+
+            Question question = deletedQuestions.pop();
+
+            questionList.add(question);
+
+            saveQuestions();
+
+            System.out.println("Question restored successfully.");
+
+        } else {
+
+            System.out.println("No deleted questions to restore.");
         }
     }
 }

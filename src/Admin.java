@@ -37,7 +37,8 @@ public class Admin {
             System.out.println("4. View All Questions");
             System.out.println("5. View Questions by Lesson");
             System.out.println("6. Delete Question");
-            System.out.println("7. Logout");
+            System.out.println("7. Undo Delete Question");
+            System.out.println("8. Logout");
             System.out.print("Enter Choice : ");
 
             choice = input.nextInt();
@@ -47,7 +48,7 @@ public class Admin {
 
                 case 1:
 
-                    System.out.print("Enter Lesson Num : ");
+                    System.out.print("Enter Lesson Name : ");
                     String newLesson = input.nextLine();
 
                     lessonManager.addLesson(newLesson);
@@ -120,12 +121,19 @@ public class Admin {
 
                     System.out.print("Enter Question ID : ");
                     int deleteId = input.nextInt();
+                    input.nextLine();
 
                     questionManager.deleteQuestion(deleteId);
 
                     break;
 
                 case 7:
+
+                    questionManager.undoDeleteQuestion();
+
+                    break;
+
+                case 8:
 
                     System.out.println("Logged Out.");
 
@@ -136,6 +144,6 @@ public class Admin {
                     System.out.println("Invalid Choice.");
             }
 
-        } while (choice != 7);
+        } while (choice != 8);
     }
 }
